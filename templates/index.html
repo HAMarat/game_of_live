@@ -1,1 +1,4 @@
-<title> {{ title }}</title>
+{% extends 'base.html' %}
+{% block app_content %}
+    <a class="btn btn-primary" href="{{ url_for('live') }}">Создать жизнь</a>
+{% endblock %}
