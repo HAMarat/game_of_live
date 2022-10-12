@@ -53,3 +53,7 @@ class GameOfLife(metaclass=SingletonMeta):
             if universe[(pos[0] + i[0]) % len(universe)][(pos[1] + i[1]) % len(universe[0])]:
                 count += 1
         return count
+
+
+GameOfLife(25, 25)
+
